@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable name="viewModel"
+                  type="com.zhuorui.securities.market.ui.viewmodel.StockSearchViewModel"/>
+    </data>
+
+    <LinearLayout android:orientation="vertical"
+                  android:background="@color/tab_bar_bg"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent">
+
+        <RelativeLayout android:layout_width="match_parent"
+                        android:background="@color/title_bar_color"
+                        android:layout_height="55dp">
+
+            <ImageView android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:background="@mipmap/ic_serach"
+                       android:layout_marginStart="13dp"
+                       android:layout_centerVertical="true"
+                       android:id="@+id/iv_serach"/>
+
+            <EditText android:layout_toEndOf="@+id/iv_serach"
+                      android:layout_width="match_parent"
+                      android:layout_centerVertical="true"
+                      android:id="@+id/et_serach"
+                      android:hint="请输入股票代码或名称"
+                      android:textColor="@color/tab_select"
+                      android:textColorHint="@color/stock_code"
+                      android:layout_marginEnd="13dp"
+                      android:background="@null"
+                      android:layout_height="35dp"/>
+        </RelativeLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/search_list"
+                android:layout_width="match_parent"
+                android:adapter="@{viewModel.adapter}"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                android:layout_height="match_parent">
+        </androidx.recyclerview.widget.RecyclerView>
+    </LinearLayout>
+</layout>

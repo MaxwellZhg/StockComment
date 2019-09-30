@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="upload_waiting" tools:ignore="ExtraTranslation">上传中，请稍后</string>
+    <string name="str_reshooting" tools:ignore="ExtraTranslation">重新拍摄</string>
+    <string name="country_disct" tools:ignore="MissingTranslation">国家/地区</string>
+    <string name="cancle" tools:ignore="MissingTranslation">取消</string>
+    <string name="country_disct_tips" tools:ignore="MissingTranslation">请输入国家/国际地区名</string>
+    <string name="ensure" tools:ignore="MissingTranslation">确定</string>
+</resources>

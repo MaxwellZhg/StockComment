@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   android:orientation="vertical"
+                                                   android:background="#f4f4f4"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="wrap_content">
+
+
+    <TextView
+            android:id="@+id/cancel"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:text="取消"
+            android:textColor="#232323"
+            android:gravity="center"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"/>
+
+    <TextView
+            android:id="@+id/confirm"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:text="完成"
+            android:textColor="#1A6ED2"
+            android:gravity="center"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"/>
+
+    <TextView
+            android:id="@+id/title"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            android:textColor="#232323"
+            android:gravity="center"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"/>
+
+    <View
+            android:id="@+id/line"
+            app:layout_constraintTop_toBottomOf="@+id/cancel"
+            android:layout_width="match_parent" android:layout_height="0.5dp"
+            android:background="#cccccc"
+    />
+
+    <com.zhuorui.securities.pickerview.option.OptionsPicker
+            android:id="@+id/picker"
+            app:layout_constraintTop_toBottomOf="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

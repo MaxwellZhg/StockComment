@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+  <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="45dp"
+                android:orientation="horizontal"
+                  android:background="@color/tab_bar_bg">
+      <RelativeLayout android:layout_width="0dp"
+                      android:layout_weight="1"
+                      android:layout_gravity="center_vertical"
+                      android:layout_height="wrap_content">
+        <ImageView android:id="@+id/iv_tag"
+                   android:layout_alignParentLeft="true"
+                   android:layout_marginLeft="13dp"
+                   android:layout_centerVertical="true"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:background="@mipmap/ic_ts_sh"/>
+          <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/iv_tag"
+                    android:id="@+id/tv_stock_name"
+                    android:layout_marginLeft="13dp"
+                    android:textColor="@color/tv_stock_code"
+                    android:text=""
+                    android:textSize="18sp"/>
+      </RelativeLayout>
+      <RelativeLayout android:layout_width="0dp"
+                      android:layout_weight="1"
+                      android:layout_gravity="center_vertical"
+                      android:layout_height="wrap_content">
+          <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_stock_code"
+                    android:textColor="@color/tv_stock_code"
+                    android:text=""
+                    android:layout_marginLeft="13dp"
+                    android:textSize="18sp"/>
+          <ImageView
+                     android:layout_marginRight="13dp"
+                     android:id="@+id/iv_add"
+                     android:layout_alignParentRight="true"
+                     android:layout_centerVertical="true"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:background="@mipmap/ic_add_icon"/>
+      </RelativeLayout>
+  </LinearLayout>
+</LinearLayout>

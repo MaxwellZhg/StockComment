@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data>
+        <variable name="viewmodel"
+                  type="com.zhuorui.securities.personal.ui.viewmodel.RestPswViewModel"/>
+    </data>
+    <LinearLayout android:orientation="vertical"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:background="@color/tablayout_bg">
+        <RelativeLayout android:layout_width="match_parent"
+                        android:layout_height="50dp">
+            <ImageView android:layout_width="13dp"
+                       android:layout_height="20dp"
+                       android:layout_marginLeft="13dp"
+                       android:id="@+id/iv_back"
+                       android:layout_centerVertical="true"
+                       android:background="@mipmap/back_arrows"/>
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textSize="20sp"
+                      android:textStyle="bold"
+                      android:layout_centerInParent="true"
+                      android:textColor="@color/color_FFFFFFFF"
+                      android:text="@string/rest_psw"/>
+        </RelativeLayout>
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:background="@color/color_f0f0f0"
+                      android:orientation="vertical">
+            <RelativeLayout android:layout_width="match_parent"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginRight="30dp"
+                            android:layout_marginTop="50dp"
+                            android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:textSize="16sp"
+                          android:id="@+id/tv_new_psw"
+                          android:textStyle="bold"
+                          android:textColor="@color/color_232323"
+                          android:text="@string/new_psw"/>
+                <LinearLayout android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:orientation="vertical"
+                              android:layout_marginLeft="27dp"
+                              android:layout_toRightOf="@+id/tv_new_psw">
+                    <RelativeLayout android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+                        <EditText android:layout_width="match_parent"
+                                  android:layout_height="wrap_content"
+                                  android:textSize="16sp"
+                                  android:textStyle="bold"
+                                  android:id="@+id/et_new_psw"
+                                  android:inputType="textPassword"
+                                  android:textColor="@color/color_282828"
+                                  android:hint="@string/psw_conbine"
+                                  android:textCursorDrawable="@drawable/bg_edittext"
+                                  android:textColorHint="@color/color_A1A1A1"
+                                  android:background="@null"/>
+                        <CheckBox android:layout_width="17dp"
+                                  android:layout_height="9dp"
+                                  android:id="@+id/cb_new_psw"
+                                  android:layout_centerVertical="true"
+                                  android:button="@null"
+                                  android:layout_alignParentEnd="true"
+                                  android:background="@drawable/psw_check"/>
+                    </RelativeLayout>
+                    <ImageView android:layout_width="match_parent"
+                               android:layout_height="1dp"
+                               android:background="@color/color_A1A1A1"/>
+                    <TextView android:layout_width="wrap_content"
+                              android:textColor="@color/color_FF0000"
+                              android:text="@{viewmodel.strnew}"
+                              android:layout_marginTop="4dp"
+                              android:textSize="13sp"
+                              android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="match_parent"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginRight="30dp"
+                            android:layout_marginTop="25dp"
+                            android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:textSize="16sp"
+                          android:id="@+id/tv_ensure_psw"
+                          android:textStyle="bold"
+                          android:textColor="@color/color_232323"
+                          android:text="@string/ensure_psw"/>
+                <LinearLayout android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:orientation="vertical"
+                              android:layout_marginLeft="11dp"
+                              android:layout_toRightOf="@+id/tv_ensure_psw">
+                    <RelativeLayout android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+                        <EditText android:layout_width="match_parent"
+                                  android:layout_height="wrap_content"
+                                  android:textSize="16sp"
+                                  android:textStyle="bold"
+                                  android:id="@+id/et_rest_ensure_psw"
+                                  android:inputType="textPassword"
+                                  android:textCursorDrawable="@drawable/bg_edittext"
+                                  android:textColor="@color/color_282828"
+                                  android:hint="@string/ensure_psw_again"
+                                  android:textColorHint="@color/color_A1A1A1"
+                                  android:background="@null"/>
+                        <CheckBox android:layout_width="17dp"
+                                  android:layout_height="9dp"
+                                  android:id="@+id/cb_rest_ensure_psw"
+                                  android:layout_centerVertical="true"
+                                  android:button="@null"
+                                  android:layout_alignParentEnd="true"
+                                  android:background="@drawable/psw_check"/>
+                    </RelativeLayout>
+                    <ImageView android:layout_width="match_parent"
+                               android:layout_height="1dp"
+                               android:background="@color/color_A1A1A1"/>
+                    <TextView android:layout_width="wrap_content"
+                              android:textColor="@color/color_FF0000"
+                              android:text="@{viewmodel.strensure}"
+                              android:layout_marginTop="4dp"
+                              android:textSize="13sp"
+                              android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </RelativeLayout>
+            <com.zhuorui.commonwidget.StateButton
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="29dp"
+                    android:layout_marginRight="29dp"
+                    android:layout_marginTop="65dp"
+                    android:id="@+id/tv_btn_rest"
+                    android:layout_below="@+id/rl_login_tips"
+                    android:textSize="23sp"
+                    android:padding="0dp"
+                    android:minHeight="0dp"
+                    android:gravity="center"
+                    android:text="@string/ensure_rest"
+                    android:enabled="false"
+                    app:radius="3dp"
+                    android:textColor="@color/color_FFFFFFFF"
+                    app:normalBackgroundColor="@color/color_1A6ED2"
+                    app:unableBackgroundColor="@color/color_8DB9E4"/>
+
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textSize="13sp"
+                      android:id="@+id/tv_phone_code_login"
+                      android:textColor="@color/color_1A6ED2"
+                      android:layout_marginTop="15dp"
+                      android:layout_gravity="center_horizontal"
+                      android:text="@string/phone_code_vrf_login"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</layout>

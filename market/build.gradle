@@ -1,0 +1,78 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'com.jakewharton.butterknife'
+apply plugin: 'org.greenrobot.greendao'
+
+kapt {
+    // 在需要使用databinding的module中添加
+    generateStubs = true
+//    // 在需要使用arouter的module中添加
+//    arguments {
+//        arg("AROUTER_MODULE_NAME", project.getName())
+//    }
+}
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    // 使用Kotlin实验特性
+    androidExtensions {
+        experimental = true
+    }
+
+    dataBinding {
+        enabled = true
+    }
+
+    //greendao配置
+    greendao {
+        // 数据库的schema版本，也可以理解为数据库版本号
+        schemaVersion 1
+        // 设置DaoMaster、DaoSession、Dao包名，也就是要放置这些类的包的全路径。
+        daoPackage 'com.zhuorui.securities.market.db.greendao'
+        // 设置DaoMaster、DaoSession、Dao目录
+        targetGenDir 'src/main/java'
+    }
+}
+
+dependencies {
+    api fileTree(dir: 'libs', include: ['*.jar'])
+    api project(":base2app")
+    api project(":commonwidget")
+    api project(":MPChartLib")
+    api project(':personal')
+    // 支持使用butterknife注解
+    kapt "com.jakewharton:butterknife-compiler:$butterknife_plugin_version"
+    // 在需要使用arouter的module中添加
+//    kapt "com.alibaba:arouter-compiler:$arouter_arouter_compiler"
+    // WebSocket
+    api "org.java-websocket:Java-WebSocket:1.3.9"
+    // kotlin
+    api "org.jetbrains.kotlin:kotlin-reflect:1.3.50"
+    // Indicator viewpager指示器
+    api 'com.github.hackware1993:MagicIndicator:1.5.0'
+    // greendao
+    api 'org.greenrobot:greendao:3.2.2'
+    // databinding
+    kapt "com.android.databinding:compiler:$databinding_version"
+}

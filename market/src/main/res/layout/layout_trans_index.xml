@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:orientation="horizontal"
+              android:layout_height="wrap_content"
+              android:paddingTop="15dp">
+
+    <LinearLayout android:layout_width="0dp"
+                  android:layout_weight="1"
+                  android:layout_height="65dp"
+                  android:orientation="vertical"
+                  android:gravity="center_horizontal"
+                  android:layout_marginStart="15dp"
+                  android:background="@drawable/bg_trans_index_up">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="上证指数"
+                android:layout_marginTop="4dp"
+                android:textColor="#ffffffff"
+                android:textSize="15sp"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2814.99"
+                android:textColor="#ffffffff"
+                android:textSize="16sp"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+40.24+1.45%"
+                android:textColor="#ffffffff"
+                android:layout_marginBottom="4.5dp"
+                android:textSize="12sp"/>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="0dp"
+                  android:layout_weight="1"
+                  android:layout_centerHorizontal="true"
+                  android:layout_height="65dp"
+                  android:orientation="vertical"
+                  android:gravity="center_horizontal"
+                  android:layout_marginStart="10dp"
+                  android:background="@drawable/bg_trans_index_up">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="深证成数"
+                android:layout_marginTop="4dp"
+                android:textColor="#ffffffff"
+                android:textSize="15sp"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2814.99"
+                android:textColor="#ffffffff"
+                android:textSize="16sp"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+40.24+1.45%"
+                android:textColor="#ffffffff"
+                android:layout_marginBottom="4.5dp"
+                android:textSize="12sp"/>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="0dp"
+                  android:layout_weight="1"
+                  android:layout_height="65dp"
+                  android:orientation="vertical"
+                  android:layout_marginStart="10dp"
+                  android:gravity="center_horizontal"
+                  android:layout_marginEnd="15dp"
+                  android:background="@drawable/bg_trans_index_down">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="创业板指"
+                android:layout_marginTop="4dp"
+                android:textColor="#ffffffff"
+                android:textSize="15sp"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2814.99"
+                android:textColor="#ffffffff"
+                android:textSize="16sp"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+40.24+1.45%"
+                android:textColor="#ffffffff"
+                android:layout_marginBottom="4.5dp"
+                android:textSize="12sp"/>
+    </LinearLayout>
+</LinearLayout>

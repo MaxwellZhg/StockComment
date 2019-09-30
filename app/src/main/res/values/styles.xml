@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="NoActionBarTheme">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <!--控件聚焦后颜色-->
+        <item name="colorAccent">@color/white</item>
+        <!--控件默认颜色-->
+        <item name="colorControlNormal">@color/low_white</item>
+        <!--TextView默认字体颜色-->
+        <item name="android:textColorPrimary">@color/white</item>
+        <!--TextView默认Hint字体颜色-->
+        <item name="android:textColorHint">@color/low_white</item>
+        <!--切换activity动画-->
+        <item name="android:windowAnimationStyle">@style/ACAnim</item>
+    </style>
+
+
+    <style name="SplashTheme" parent="AppTheme">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+
+</resources>

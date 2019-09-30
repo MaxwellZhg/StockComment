@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="network_anomaly">似乎已断开与互联网的连接。</string>
+    <string name="press_again_exit">再按一次退出%1$s</string>
+</resources>

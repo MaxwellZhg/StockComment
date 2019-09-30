@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="StateButton">
+        <!--text color-->
+        <attr name="normalTextColor" format="color|reference"/>
+        <attr name="pressedTextColor" format="color|reference"/>
+        <attr name="unableTextColor" format="color|reference"/>
+
+        <!--stroke width and color, dash width, dash gap-->
+        <attr name="strokeDashWidth" format="dimension|reference"/>
+        <attr name="strokeDashGap" format="dimension|reference"/>
+        <attr name="normalStrokeWidth" format="dimension|reference"/>
+        <attr name="pressedStrokeWidth" format="dimension|reference"/>
+        <attr name="unableStrokeWidth" format="dimension|reference"/>
+        <attr name="normalStrokeColor" format="color|reference"/>
+        <attr name="pressedStrokeColor" format="color|reference"/>
+        <attr name="unableStrokeColor" format="color|reference"/>
+
+        <!--background color-->
+        <attr name="normalBackgroundColor" format="color|reference"/>
+        <attr name="pressedBackgroundColor" format="color|reference"/>
+        <attr name="unableBackgroundColor" format="color|reference"/>
+
+        <!--background radius-->
+        <attr name="radius" format="dimension|reference"/>
+        <attr name="round" format="boolean|reference"/>
+
+        <!--animation duration-->
+        <attr name="animationDuration" format="integer|reference"/>
+    </declare-styleable>
+
+    <attr name="text_size" format="dimension"/>
+    <declare-styleable name="QuickIndexBar">
+        <attr name="text_normal_color" format="color"/>
+        <attr name="text_press_color" format="color"/>
+        <attr name="text_size"/>
+        <attr name="bg_color" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="ZhuoRuiTopBar">
+        <attr name="zr_topbarTitle" format="string|reference"/>
+        <attr name="zr_shareVisibility" format="boolean"/>
+    </declare-styleable>
+
+
+    <attr name="zr_iconWidth" format="dimension"/>
+    <attr name="zr_iconHight" format="dimension"/>
+    <attr name="zr_iconSrc" format="reference"/>
+    <attr name="zr_iconVisible" format="boolean"/>
+    <attr name="zr_titleWidthBaseline" format="boolean"/>
+
+    <declare-styleable name="ZRTitleEditText">
+        <attr name="zr_teditTitle" format="string|reference"/>
+        <attr name="zr_teditText" format="string|reference"/>
+        <attr name="zr_teditHint" format="string|reference"/>
+        <attr name="zr_teditOrientation" format="enum">
+            <enum name="HORIZONTAL" value="0"/>
+            <enum name="VERTICAL" value="1"/>
+        </attr>
+        <attr name="zr_iconWidth"/>
+        <attr name="zr_iconHight"/>
+        <attr name="zr_iconSrc"/>
+        <attr name="zr_iconVisible"/>
+        <attr name="zr_titleWidthBaseline"/>
+    </declare-styleable>
+
+    <declare-styleable name="ZRTitleTextView">
+        <attr name="zr_ttextviewTitle" format="string|reference"/>
+        <attr name="zr_ttextviewText" format="string|reference"/>
+        <attr name="zr_ttextviewHint" format="string|reference"/>
+        <attr name="zr_ttextviewOrientation" format="enum">
+            <enum name="HORIZONTAL" value="0"/>
+            <enum name="VERTICAL" value="1"/>
+        </attr>
+        <attr name="zr_iconWidth"/>
+        <attr name="zr_iconHight"/>
+        <attr name="zr_iconSrc"/>
+        <attr name="zr_iconVisible"/>
+        <attr name="zr_titleWidthBaseline"/>
+    </declare-styleable>
+
+    <declare-styleable name="ZRUploadImageView">
+        <attr name="zr_upimageviewTitle" format="string|reference"/>
+        <attr name="zr_upimageviewBtnText" format="string|reference"/>
+        <attr name="zr_upimageviewPlaceholder" format="reference"/>
+        <attr name="zr_upimageviewWatermark" format="string|reference"/>
+        <attr name="zr_toAlbumRequestCode" format="integer|reference"/>
+        <attr name="zr_toCameraRequestCode" format="integer|reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="ZRRotateTextView">
+        <attr name="zr_degree" format="integer"/>
+    </declare-styleable>
+
+    <!-- ZRLoadingTextView -->
+    <declare-styleable name="ZRLoadingTextView">
+        <attr name="text" format="string"/>
+        <attr name="text_size"/>
+        <attr name="text_color_normal" format="color"/>
+        <attr name="text_color_hightlight" format="color"/>
+        <attr name="direction">
+            <enum name="left" value="1"/>
+            <enum name="top" value="2"/>
+            <enum name="right" value="3"/>
+            <enum name="bottom" value="4"/>
+        </attr>
+    </declare-styleable>
+</resources>

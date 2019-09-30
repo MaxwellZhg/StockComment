@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+                name="viewModel"
+                type="com.zhuorui.securities.market.ui.viewmodel.StockTabViewModel"/>
+    </data>
+
+    <LinearLayout android:orientation="vertical"
+                  android:background="@color/tab_bar_bg"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent">
+
+        <RelativeLayout android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:background="@color/tab_bar_bg">
+            <ImageView android:layout_width="25dp"
+                       android:layout_height="25dp"
+                       android:id="@+id/user_logo"
+                       android:layout_centerVertical="true"
+                       android:layout_marginStart="22dp"
+                       android:background="@mipmap/ic_prof"/>
+
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="@string/choose_stock"
+                      android:layout_centerInParent="true"
+                      android:textColor="@color/title_bar_color"
+                      android:textSize="18sp"/>
+
+            <ImageView android:layout_width="23dp"
+                       android:layout_height="24dp"
+                       android:id="@+id/iv_message"
+                       android:layout_centerVertical="true"
+                       android:layout_alignParentEnd="true"
+                       android:layout_marginEnd="22dp"
+                       android:background="@mipmap/ic_message"/>
+
+            <ImageView android:layout_width="24dp"
+                       android:layout_toStartOf="@+id/iv_message"
+                       android:layout_marginEnd="19dp"
+                       android:id="@+id/iv_serach"
+                       android:layout_height="23dp"
+                       android:layout_centerVertical="true"
+                       android:background="@mipmap/ic_serach"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/tablayout_bg">
+
+            <net.lucode.hackware.magicindicator.MagicIndicator
+                    android:id="@+id/magic_indicator"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"/>
+
+            <ImageView
+                    android:src="@{viewModel.toggleStockTab?@drawable/ic_stock_filter_pressed:@drawable/ic_stock_filter_normal}"
+                    android:id="@+id/iv_list"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="13dp"
+                    android:layout_width="19dp"
+                    android:layout_height="15dp"/>
+        </RelativeLayout>
+
+        <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <com.scwang.smartrefresh.layout.SmartRefreshLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:srlEnableLoadMore="false"
+                    app:srlEnableOverScrollBounce="true"
+                    app:srlEnableOverScrollDrag="true"
+                    app:srlEnableRefresh="false"
+                    app:srlReboundDuration="1000">
+
+                <androidx.viewpager.widget.ViewPager
+                        android:id="@+id/viewpager"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+            </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+
+            <RelativeLayout
+                    android:id="@+id/rl_filter"
+                    android:layout_width="match_parent"
+                    android:background="@color/color_424147"
+                    android:gravity="center_vertical"
+                    android:layout_height="0dp">
+
+                <TextView
+                        android:id="@+id/tv_select_all"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@{@string/all_stock_num(viewModel.allNum)}"
+                        android:layout_marginStart="45dp"
+                        android:layout_alignParentStart="true"
+                        android:textColor="@color/color_FFB3BCD0"
+                        android:textSize="18sp"/>
+
+                <TextView
+                        android:id="@+id/tv_select_hk"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@{@string/hk_stock_num(viewModel.hkNum)}"
+                        android:layout_centerHorizontal="true"
+                        android:textColor="@color/color_FFB3BCD0"
+                        android:textSize="18sp"/>
+
+                <TextView
+                        android:id="@+id/tv_select_hs"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@{@string/hs_stock_num(viewModel.hsNum)}"
+                        android:layout_marginEnd="45dp"
+                        android:layout_alignParentEnd="true"
+                        android:textColor="@color/color_FFB3BCD0"
+                        android:textSize="18sp"/>
+
+            </RelativeLayout>
+        </FrameLayout>
+    </LinearLayout>
+</layout>

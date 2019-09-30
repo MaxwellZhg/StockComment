@@ -1,0 +1,88 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments = [AROUTER_MODULE_NAME: project.getName(), AROUTER_GENERATE_DOC: "enable"]
+            }
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    // 指定Jdk版本
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+    dataBinding {
+        enabled = true
+    }
+}
+
+dependencies {
+    api fileTree(include: ['*.jar'], dir: 'libs')
+    // fragment库
+    api project(':fragmentation_swipeback')
+    // App体积大使用多包
+    api 'androidx.multidex:multidex:2.0.1'
+    // kotlin
+    api "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
+    // RxJava
+    api 'io.reactivex.rxjava2:rxjava:2.2.7'
+    api 'io.reactivex.rxjava2:rxandroid:2.1.0'
+    api 'com.squareup.retrofit2:adapter-rxjava2:2.4.0'
+    api 'com.jakewharton.rxrelay2:rxrelay:2.0.0'
+    // 注解View
+    api 'com.jakewharton:butterknife:10.1.0'
+    // Json解析
+    api 'com.alibaba:fastjson:1.2.48'
+    // Retrofit 网络Lib 版本需要保持一致
+    api 'com.squareup.okhttp3:okhttp:3.12.0'
+    api 'com.squareup.okhttp3:logging-interceptor:3.11.0'
+    api 'com.squareup.retrofit2:retrofit:2.6.0'
+    api 'com.squareup.retrofit2:converter-gson:2.6.0'
+    // 动态权限申请处理库
+//    api 'com.github.tbruyelle:rxpermissions:0.10.2'
+    api 'com.qw:soulpermission:1.1.6'
+    // 配置读取Lib
+    api 'com.github.fernandodev.androidproperties:androidproperties:1.0.0'
+    // noinspection GradleDependency v4、v7、v13包
+    api "androidx.appcompat:appcompat:$androidx_version"
+    api "androidx.legacy:legacy-support-v4:$androidx_version"
+    api "androidx.legacy:legacy-support-v13:$androidx_version"
+    // design包
+    api "com.google.android.material:material:$androidx_version"
+    // recyclerview
+    api "androidx.recyclerview:recyclerview:$androidx_version"
+    // constraint-layout
+    api 'androidx.constraintlayout:constraintlayout:1.1.3'
+    // 图片库glide
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.8.0'
+    api 'com.github.bumptech.glide:glide:4.9.0'
+    // 组件化Arouter路由
+    api 'com.alibaba:arouter-api:1.5.0'
+    // 屏幕适配
+    api 'me.jessyan:autosize:1.1.2'
+    // viewmodel
+    api 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.0.0'
+    // livedata
+    api 'androidx.lifecycle:lifecycle-extensions:2.0.0'
+}

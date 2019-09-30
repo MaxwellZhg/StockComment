@@ -1,0 +1,114 @@
+[
+    {
+        "merged": "E:\\workspace\\zhuorui_stock_android\\applib2\\build\\intermediates\\res\\merged\\debug\\anim\\pop_exit_no_anim.xml",
+        "source": "E:\\workspace\\zhuorui_stock_android\\fragmentation_core\\build\\intermediates\\packaged_res\\debug\\anim\\pop_exit_no_anim.xml"
+    },
+    {
+        "merged": "E:\\workspace\\zhuorui_stock_android\\applib2\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\507db16add41471df6fa9da58fb8ab8a\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "E:\\workspace\\zhuorui_stock_android\\applib2\\build\\intermediates\\res\\merged\\debug\\anim\\abc_tooltip_exit.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\507db16add41471df6fa9da58fb8ab8a\\res\\anim\\abc_tooltip_exit.xml"
+    },
+    {
+        "merged": "E:\\workspace\\zhuorui_stock_android\\applib2\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\cbc131c47cb141e0c2eb7053d396fc19\\res\\anim\\design_snackbar_out.xml"
+    },
+    {
+        "merged": "E:\\workspace\\zhuorui_stock_android\\applib2\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\507db16add41471df6fa9da58fb8ab8a\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "E:\\workspace\\zhuorui_stock_android\\applib2\\build\\intermediates\\res\\merged\\debug\\anim\\no_anim.xml",
+        "source": "E:\\workspace\\zhuorui_stock_android\\fragmentation_core\\build\\intermediates\\packaged_res\\debug\\anim\\no_anim.xml"
+    },
+    {
+        "merged": "E:\\workspace\\zhuorui_stock_android\\applib2\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\507db16add41471df6fa9da58fb8ab8a\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "E:\\workspace\\zhuorui_stock_android\\applib2\\build\\intermediates\\res\\merged\\debug\\anim\\anim_out.xml",
+        "source": "E:\\workspace\\zhuorui_stock_android\\base2app\\build\\intermediates\\packaged_res\\debug\\anim\\anim_out.xml"
+    },
+    {
+        "merged": "E:\\workspace\\zhuorui_stock_android\\applib2\\build\\intermediates\\res\\merged\\debug\\anim\\h_fragment_exit.xml",
+        "source": "E:\\workspace\\zhuorui_stock_android\\fragmentation_core\\build\\intermediates\\packaged_res\\debug\\anim\\h_fragment_exit.xml"
+    },
+    {
+        "merged": "E:\\workspace\\zhuorui_stock_android\\applib2\\build\\intermediates\\res\\merged\\debug\\anim\\h_fragment_enter.xml",
+        "source": "E:\\workspace\\zhuorui_stock_android\\fragmentation_core\\build\\intermediates\\packaged_res\\debug\\anim\\h_fragment_enter.xml"
+    },
+    {
+        "merged": "E:\\workspace\\zhuorui_stock_android\\applib2\\build\\intermediates\\res\\merged\\debug\\anim\\abc_tooltip_enter.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\507db16add41471df6fa9da58fb8ab8a\\res\\anim\\abc_tooltip_enter.xml"
+    },
+    {
+        "merged": "E:\\workspace\\zhuorui_stock_android\\applib2\\build\\intermediates\\res\\merged\\debug\\anim\\v_fragment_exit.xml",
+        "source": "E:\\workspace\\zhuorui_stock_android\\fragmentation_core\\build\\intermediates\\packaged_res\\debug\\anim\\v_fragment_exit.xml"
+    },
+    {
+        "merged": "E:\\workspace\\zhuorui_stock_android\\applib2\\build\\intermediates\\res\\merged\\debug\\anim\\anim_in.xml",
+        "source": "E:\\workspace\\zhuorui_stock_android\\base2app\\build\\intermediates\\packaged_res\\debug\\anim\\anim_in.xml"
+    },
+    {
+        "merged": "E:\\workspace\\zhuorui_stock_android\\applib2\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\507db16add41471df6fa9da58fb8ab8a\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "E:\\workspace\\zhuorui_stock_android\\applib2\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\507db16add41471df6fa9da58fb8ab8a\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "E:\\workspace\\zhuorui_stock_android\\applib2\\build\\intermediates\\res\\merged\\debug\\anim\\v_fragment_pop_exit.xml",
+        "source": "E:\\workspace\\zhuorui_stock_android\\fragmentation_core\\build\\intermediates\\packaged_res\\debug\\anim\\v_fragment_pop_exit.xml"
+    },
+    {
+        "merged": "E:\\workspace\\zhuorui_stock_android\\applib2\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\507db16add41471df6fa9da58fb8ab8a\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "E:\\workspace\\zhuorui_stock_android\\applib2\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\507db16add41471df6fa9da58fb8ab8a\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "E:\\workspace\\zhuorui_stock_android\\applib2\\build\\intermediates\\res\\merged\\debug\\anim\\v_fragment_pop_enter.xml",
+        "source": "E:\\workspace\\zhuorui_stock_android\\fragmentation_core\\build\\intermediates\\packaged_res\\debug\\anim\\v_fragment_pop_enter.xml"
+    },
+    {
+        "merged": "E:\\workspace\\zhuorui_stock_android\\applib2\\build\\intermediates\\res\\merged\\debug\\anim\\v_fragment_enter.xml",
+        "source": "E:\\workspace\\zhuorui_stock_android\\fragmentation_core\\build\\intermediates\\packaged_res\\debug\\anim\\v_fragment_enter.xml"
+    },
+    {
+        "merged": "E:\\workspace\\zhuorui_stock_android\\applib2\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\cbc131c47cb141e0c2eb7053d396fc19\\res\\anim\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "E:\\workspace\\zhuorui_stock_android\\applib2\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\507db16add41471df6fa9da58fb8ab8a\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "E:\\workspace\\zhuorui_stock_android\\applib2\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\cbc131c47cb141e0c2eb7053d396fc19\\res\\anim\\design_snackbar_in.xml"
+    },
+    {
+        "merged": "E:\\workspace\\zhuorui_stock_android\\applib2\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\507db16add41471df6fa9da58fb8ab8a\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "E:\\workspace\\zhuorui_stock_android\\applib2\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\cbc131c47cb141e0c2eb7053d396fc19\\res\\anim\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "E:\\workspace\\zhuorui_stock_android\\applib2\\build\\intermediates\\res\\merged\\debug\\anim\\h_fragment_pop_exit.xml",
+        "source": "E:\\workspace\\zhuorui_stock_android\\fragmentation_core\\build\\intermediates\\packaged_res\\debug\\anim\\h_fragment_pop_exit.xml"
+    },
+    {
+        "merged": "E:\\workspace\\zhuorui_stock_android\\applib2\\build\\intermediates\\res\\merged\\debug\\anim\\h_fragment_pop_enter.xml",
+        "source": "E:\\workspace\\zhuorui_stock_android\\fragmentation_core\\build\\intermediates\\packaged_res\\debug\\anim\\h_fragment_pop_enter.xml"
+    },
+    {
+        "merged": "E:\\workspace\\zhuorui_stock_android\\applib2\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\507db16add41471df6fa9da58fb8ab8a\\res\\anim\\abc_fade_in.xml"
+    }
+]

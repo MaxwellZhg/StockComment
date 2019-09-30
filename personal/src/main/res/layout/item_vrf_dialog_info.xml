@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+    <LinearLayout android:layout_width="255dp"
+                  android:layout_height="150dp"
+                  android:layout_gravity="center_horizontal"
+                  android:orientation="vertical"
+                  android:background="@drawable/dialog_bg">
+        <RelativeLayout android:layout_width="match_parent"
+                        android:layout_height="104dp">
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textStyle="bold"
+                      android:id="@+id/tv_attention"
+                      android:layout_marginTop="20dp"
+                      android:layout_centerHorizontal="true"
+                      android:textSize="18sp"
+                      android:textColor="@color/color_282828"
+                      android:text="@string/attention"/>
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textStyle="bold"
+                      android:layout_below="@+id/tv_attention"
+                      android:layout_marginTop="15dp"
+                      android:layout_centerHorizontal="true"
+                      android:textSize="15sp"
+                      android:gravity="center"
+                      android:textColor="@color/color_282828"
+                      android:text="@string/vrf_code_time"/>
+            <ImageView android:layout_width="match_parent"
+                       android:layout_height="1dp"
+                       android:layout_alignParentBottom="true"
+                       android:background="@color/color_A1A1A1"/>
+        </RelativeLayout>
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="46dp"
+                      android:orientation="horizontal">
+            <RelativeLayout android:layout_width="0dp"
+                            android:id="@+id/rl_complete_verify"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1">
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:textStyle="bold"
+                          android:textSize="17sp"
+                          android:textColor="@color/color_1A6ED2"
+                          android:layout_centerInParent="true"
+                          android:text="@string/ensure"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,2 @@
+include ':fragmentation_swipeback', ':fragmentation', ':fragmentation_core', ':pickerview',
+        ':base2app', ':MPChartLib', ':commonwidget', ':app', ':market', ':infomation', ':openaccount', ':personal'

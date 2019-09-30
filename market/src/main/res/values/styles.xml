@@ -1,0 +1,7 @@
+<resources>
+
+    <style name="TabLayoutTextStyle" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">6sp</item>
+    </style>
+
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<declare-styleable name="OpenAccountStepView">
+    <attr name="zr_openAccountStep" format="enum">
+        <enum name="STEP_0" value="0"/>
+        <enum name="STEP_1" value="1"/>
+        <enum name="STEP_2" value="2"/>
+        <enum name="STEP_3" value="3"/>
+        <enum name="STEP_4" value="4"/>
+    </attr>
+</declare-styleable>
+</resources>

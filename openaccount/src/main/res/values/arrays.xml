@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gender">
+        <item>男</item>
+        <item>女</item>
+    </string-array>
+    <string-array name="gender_code">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="id_card_valid">
+        <item>5年有效期</item>
+        <item>10年有效期</item>
+        <item>20年有效期</item>
+        <item>长期有效</item>
+    </string-array>
+    <integer-array name="id_card_valid_num">
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+        <item>-1</item>
+    </integer-array>
+
+</resources>

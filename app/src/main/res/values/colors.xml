@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="colorPrimary">#211F2A</color>
+    <color name="colorPrimaryDark">#211F2A</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="white" tools:ignore="MissingDefaultResource">#ffffff</color>
+    <color name="low_white" tools:ignore="MissingDefaultResource">#88ffffff</color>
+    <color name="tab_unselect" tools:ignore="MissingDefaultResource">#C3CDE3</color>
+    <color name="tab_bar_bg" tools:ignore="MissingDefaultResource">#211F2A</color>
+    <color name="tab_select" tools:ignore="MissingDefaultResource">#53A0FD</color>
+    <color name="color_ff333333" tools:ignore="MissingDefaultResource">#ff333333</color>
+</resources>

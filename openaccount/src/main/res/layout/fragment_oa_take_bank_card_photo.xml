@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable name="viewModel" type="com.zhuorui.securities.openaccount.ui.viewmodel.OATakeBankCradPhotoViewModel"/>
+    </data>
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:background="@color/color_FFFFFFFF"
+            android:layout_height="match_parent">
+
+        <com.zhuorui.commonwidget.ZhuoRuiTopBar
+                android:layout_width="match_parent"
+                app:zr_topbarTitle="@string/zhuorui_openaccount"
+                android:layout_height="wrap_content"/>
+
+        <com.zhuorui.securities.openaccount.widget.OpenAccountStepView
+                android:layout_width="match_parent"
+                style="@style/openAccountStep"
+                android:layout_height="wrap_content"
+                app:zr_openAccountStep="STEP_1"/>
+
+        <View android:layout_width="match_parent" android:layout_height="5dp"
+              android:background="@color/app_background_color"/>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+
+            <TextView
+                    style="@style/openAccountSubTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bank_card_verify"
+            />
+
+            <TextView
+                    style="@style/openAccountSubTitleDesc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bank_card_verify_tips"
+            />
+
+            <View style="@style/openAccountLine"
+                  android:layout_width="match_parent"
+                  android:layout_marginTop="10dp"
+            />
+
+            <com.zhuorui.commonwidget.ZRTitleEditText
+                    android:id="@+id/tv_card_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:zr_iconSrc="@mipmap/ic_camera"
+                    style="@style/openAccountItem"
+                    app:zr_iconWidth="15dp"
+                    app:zr_iconHight="11dp"
+                    app:zr_iconVisible="true"
+                    android:layout_marginTop="10dp"
+                    app:zr_teditTitle="@string/bank_card_code"
+                    app:zr_teditHint="@string/bank_card_hint"
+                    app:zr_teditOrientation="VERTICAL"/>
+
+
+            <TextView
+                    android:id="@+id/tv_take_sample"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/take_sample"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="17dp"
+                    android:textColor="#ff1a6ed2"
+                    android:textSize="10sp"
+                    tools:ignore="SmallSp"/>
+
+            <com.zhuorui.commonwidget.ZRTitleTextView
+                    android:id="@+id/tv_bank"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    app:zr_ttextviewTitle="@string/open_account_bank"
+                    style="@style/ZRTitleTextViewRightArrow"
+                    app:zr_ttextviewHint="@string/open_account_bank_hint"
+                    app:zr_teditOrientation="VERTICAL"/>
+
+            <com.zhuorui.commonwidget.StateButton
+                    android:id="@+id/btn_next"
+                    android:layout_marginTop="50dp"
+                    style="@style/btnStyle"
+                    android:text="@string/str_next_step"
+                    android:layout_marginStart="28dp"
+                    android:layout_marginEnd="28dp"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </LinearLayout>
+</layout>

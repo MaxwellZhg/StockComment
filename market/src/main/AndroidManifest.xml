@@ -1,0 +1,8 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.zhuorui.securities.market">
+
+    <application>
+        <activity android:name="com.zhuorui.securities.market.ui.detail.StockDetailLandActivity"
+                  android:screenOrientation="landscape"/>
+    </application>
+</manifest>

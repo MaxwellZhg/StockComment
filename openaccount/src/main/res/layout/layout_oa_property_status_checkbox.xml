@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   android:orientation="vertical"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="wrap_content">
+
+    <CheckBox
+            android:id="@+id/cb_salary"
+            style="@style/ZRCheckBox"
+            app:layout_constraintHorizontal_chainStyle="spread"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:text="@string/str_salary"
+    />
+
+    <CheckBox
+            android:id="@+id/cb_deposit"
+            style="@style/ZRCheckBox"
+            app:layout_constraintTop_toTopOf="@+id/cb_salary"
+            app:layout_constraintLeft_toRightOf="@+id/cb_salary"
+            app:layout_constraintRight_toRightOf="parent"
+            android:text="@string/str_deposit"
+    />
+    <CheckBox
+            android:id="@+id/cb_rent"
+            style="@style/ZRCheckBox"
+            android:layout_marginTop="22dp"
+            app:layout_constraintTop_toBottomOf="@+id/cb_salary"
+            app:layout_constraintLeft_toLeftOf="@+id/cb_salary"
+            android:text="@string/str_rent"
+    />
+    <CheckBox
+            android:id="@+id/cb_investment"
+            style="@style/ZRCheckBox"
+            app:layout_constraintTop_toTopOf="@+id/cb_rent"
+            app:layout_constraintLeft_toLeftOf="@id/cb_deposit"
+            android:text="@string/str_investment"
+    />
+    <CheckBox
+            android:id="@+id/cb_to_loan"
+            style="@style/ZRCheckBox"
+            android:layout_marginTop="22dp"
+            app:layout_constraintTop_toBottomOf="@+id/cb_rent"
+            app:layout_constraintLeft_toLeftOf="@id/cb_salary"
+            android:text="@string/to_loan"
+    />
+    <CheckBox
+            android:id="@+id/cb_other"
+            style="@style/ZRCheckBox"
+            app:layout_constraintTop_toTopOf="@id/cb_to_loan"
+            app:layout_constraintLeft_toLeftOf="@id/cb_deposit"
+            android:text="@string/str_other"
+    />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

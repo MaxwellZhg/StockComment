@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">applib1</string>
+    <string name="choose_stock" tools:ignore="MissingTranslation">自选股</string>
+    <string name="stock_name_code" tools:ignore="MissingTranslation">名称代码</string>
+    <string name="updown" tools:ignore="MissingTranslation">涨跌幅</string>
+    <string name="newly_price" tools:ignore="MissingTranslation">最新价</string>
+    <string name="diff_price" tools:ignore="MissingTranslation">跌涨价</string>
+    <string name="all_stock" tools:ignore="MissingTranslation">全部</string>
+    <string name="hk_stock" tools:ignore="MissingTranslation">港股</string>
+    <string name="sh_stock" tools:ignore="MissingTranslation">沪深</string>
+    <string name="add_choose_stock" tools:ignore="MissingTranslation">添加自选股</string>
+    <string name="see_more" tools:ignore="MissingTranslation">查看更多</string>
+    <string name="add_topic_successful" tools:ignore="MissingTranslation">添加成功</string>
+    <string name="more_operation" tools:ignore="MissingTranslation">更多操作请注册</string>
+    <string name="open_accout" tools:ignore="MissingTranslation">立即注册</string>
+    <string name="sticky_on_top" translatable="false">置顶</string>
+    <string name="sticky_on_top_successful" tools:ignore="ExtraTranslation,MissingTranslation">置顶成功</string>
+    <string name="remind" translatable="false">提醒</string>
+    <string name="delete" translatable="false">删除</string>
+    <string name="delete_successful" tools:ignore="ExtraTranslation,MissingTranslation">删除成功</string>
+    <string name="all_stock_num" tools:ignore="MissingTranslation">全部(%1$d)</string>
+    <string name="hk_stock_num" tools:ignore="MissingTranslation">港股(%1$d)</string>
+    <string name="hs_stock_num" tools:ignore="MissingTranslation">沪深(%1$d)</string>
+    <string name="unable_notice" translatable="false">消息通知已关闭，无法接收提醒推送</string>
+    <string name="open_notice" translatable="false">去开启</string>
+    <string name="setting_remind" translatable="false">设置提醒</string>
+    <string name="rise_threshold">价格涨到</string>
+    <string name="down_threshold">价格跌到</string>
+    <string name="rise_range">涨幅超</string>
+    <string name="down_range">跌幅超</string>
+</resources>

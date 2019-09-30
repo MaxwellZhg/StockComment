@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "E:\\workspace\\zhuorui_stock_android\\applib3\\build\\intermediates\\res\\merged\\debug\\animator\\mtrl_btn_state_list_anim.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\cbc131c47cb141e0c2eb7053d396fc19\\res\\animator\\mtrl_btn_state_list_anim.xml"
+    },
+    {
+        "merged": "E:\\workspace\\zhuorui_stock_android\\applib3\\build\\intermediates\\res\\merged\\debug\\animator\\mtrl_fab_transformation_sheet_collapse_spec.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\cbc131c47cb141e0c2eb7053d396fc19\\res\\animator\\mtrl_fab_transformation_sheet_collapse_spec.xml"
+    },
+    {
+        "merged": "E:\\workspace\\zhuorui_stock_android\\applib3\\build\\intermediates\\res\\merged\\debug\\animator\\mtrl_fab_transformation_sheet_expand_spec.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\cbc131c47cb141e0c2eb7053d396fc19\\res\\animator\\mtrl_fab_transformation_sheet_expand_spec.xml"
+    },
+    {
+        "merged": "E:\\workspace\\zhuorui_stock_android\\applib3\\build\\intermediates\\res\\merged\\debug\\animator\\mtrl_fab_show_motion_spec.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\cbc131c47cb141e0c2eb7053d396fc19\\res\\animator\\mtrl_fab_show_motion_spec.xml"
+    },
+    {
+        "merged": "E:\\workspace\\zhuorui_stock_android\\applib3\\build\\intermediates\\res\\merged\\debug\\animator\\mtrl_fab_hide_motion_spec.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\cbc131c47cb141e0c2eb7053d396fc19\\res\\animator\\mtrl_fab_hide_motion_spec.xml"
+    },
+    {
+        "merged": "E:\\workspace\\zhuorui_stock_android\\applib3\\build\\intermediates\\res\\merged\\debug\\animator\\mtrl_btn_unelevated_state_list_anim.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\cbc131c47cb141e0c2eb7053d396fc19\\res\\animator\\mtrl_btn_unelevated_state_list_anim.xml"
+    },
+    {
+        "merged": "E:\\workspace\\zhuorui_stock_android\\applib3\\build\\intermediates\\res\\merged\\debug\\animator\\design_fab_show_motion_spec.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\cbc131c47cb141e0c2eb7053d396fc19\\res\\animator\\design_fab_show_motion_spec.xml"
+    },
+    {
+        "merged": "E:\\workspace\\zhuorui_stock_android\\applib3\\build\\intermediates\\res\\merged\\debug\\animator\\mtrl_chip_state_list_anim.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\cbc131c47cb141e0c2eb7053d396fc19\\res\\animator\\mtrl_chip_state_list_anim.xml"
+    },
+    {
+        "merged": "E:\\workspace\\zhuorui_stock_android\\applib3\\build\\intermediates\\res\\merged\\debug\\animator\\design_fab_hide_motion_spec.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\cbc131c47cb141e0c2eb7053d396fc19\\res\\animator\\design_fab_hide_motion_spec.xml"
+    }
+]

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="tab_bar_bg" tools:ignore="MissingDefaultResource">#211F2A</color>
+    <color name="title_bar_color" tools:ignore="MissingDefaultResource">#FEFDFD</color>
+    <color name="tablayout_bg" tools:ignore="MissingDefaultResource">#191A21</color>
+    <color name="stock_code" tools:ignore="MissingDefaultResource">#A4B2CB</color>
+    <color name="cent_color" tools:ignore="MissingDefaultResource">#191821</color>
+    <color name="tab_select" tools:ignore="MissingDefaultResource">#53A0FD</color>
+    <color name="un_tab_select" tools:ignore="MissingDefaultResource">#B3BCD0</color>
+    <color name="tv_stock_code" tools:ignore="MissingDefaultResource">#B2B0BA</color>
+    <color name="up_stock_color" tools:ignore="MissingDefaultResource">#AC3E19</color>
+    <color name="down_stock_color" tools:ignore="MissingDefaultResource">#37672E</color>
+    <color name="up_price_color" tools:ignore="MissingDefaultResource">#FF0000</color>
+    <color name="down_price_color" tools:ignore="MissingDefaultResource">#00CC00</color>
+    <color name="add_choose_stock_color" tools:ignore="MissingDefaultResource">#449FFF</color>
+    <color name="color_ffac3519" tools:ignore="MissingDefaultResource">#ffac3519</color>
+    <color name="color_ff367639" tools:ignore="MissingDefaultResource">#ff367639</color>
+    <color name="color_312E40_85" tools:ignore="MissingDefaultResource">#85312E40</color>
+    <color name="color_424147" tools:ignore="MissingDefaultResource">#424147</color>
+    <color name="color_FFB3BCD0" tools:ignore="MissingDefaultResource">#FFB3BCD0</color>
+    <color name="color_D7D7D7" tools:ignore="MissingDefaultResource">#D7D7D7</color>
+    <color name="color_ff282828" tools:ignore="MissingDefaultResource">#ff282828</color>
+    <color name="color_ff1a6ed2" tools:ignore="MissingDefaultResource">#ff1a6ed2</color>
+    <color name="color_35373E" tools:ignore="MissingDefaultResource">#35373E</color>
+    <color name="color_ff8b93a8" tools:ignore="MissingDefaultResource">#ff8b93a8</color>
+    <color name="color_ffa4b2cb" tools:ignore="MissingDefaultResource">#ffa4b2cb</color>
+    <color name="color_A1A1A1" tools:ignore="MissingDefaultResource">#A1A1A1</color>
+</resources>

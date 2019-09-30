@@ -1,0 +1,91 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">openaccount</string>
+    <string name="zhuorui_openaccount" tools:ignore="MissingTranslatio">卓锐证券开户</string>
+    <string name="ocr" tools:ignore="MissingTranslatio">身份验证</string>
+    <string name="complete_infomation" tools:ignore="MissingTranslatio">填写资料</string>
+    <string name="verify_info" tools:ignore="MissingTranslatio">资料审核</string>
+    <string name="verify_self" tools:ignore="MissingTranslatio">人身验证</string>
+    <string name="verify_read_num" tools:ignore="MissingTranslatio">请面对镜头匀速朗读下面数字</string>
+    <string name="start_vedio" tools:ignore="MissingTranslatio">开始拍摄</string>
+    <string name="read_num"  tools:ignore="MissingTranslatio">请面对镜头匀速朗读下面数字</string>
+    <string name="str_account_opening_agreement">开户协议</string>
+    <string name="str_confirm_Read_agreement">本人已仔细阅读并同意签署全部</string>
+    <string name="str_identity_witness_profile">身份证人像面</string>
+    <string name="str_photographing_portraits">拍摄人像面</string>
+    <string name="str_national_emblem_face_of_identity_card">身份证国徽面</string>
+    <string name="str_shooting_the_national_emblem">拍摄国徽面</string>
+    <string name="str_next_step">下一步</string>
+    <string name="str_upload_id_card_information">上传身份证信息</string>
+    <string name="str_resident_identity_choice">居民身份选择</string>
+    <string name="str_quick_opening_of_accounts">急速开户</string>
+    <string name="str_24hour_service">24小时服务</string>
+    <string name="str_free_quotation">免费行情</string>
+    <string name="str_please_prepare_before_opening_an_account">开户前请准备</string>
+    <string name="str_open_an_account_immediately">立即开户</string>
+    <string name="str_chinese_name">中文姓名</string>
+    <string name="str_gender">性别</string>
+    <string name="str_date_of_birth">出生日期</string>
+    <string name="str_id_card_no">身份证号码</string>
+    <string name="str_validity_period_beginning">有效期(开始)</string>
+    <string name="str_validity_period_end">有效期（结束）</string>
+    <string name="str_document_address">证件地址</string>
+    <string name="str_the_last_step">上一步</string>
+    <string name="bank_card_verify">银行卡验证</string>
+    <string name="bank_card_verify_tips">根据合规要求，银行卡仅用于实名认证</string>
+    <string name="bank_card_code">银行卡号</string>
+    <string name="bank_card_hint">请输入银行卡号</string>
+    <string name="open_account_bank">开户银行</string>
+    <string name="open_account_bank_hint">请选择开户银行</string>
+    <string name="take_sample">拍摄范例</string>
+    <string name="openaccount_watermark" tools:ignore="ExtraTranslation">仅用于卓锐证券开户使用</string>
+    <string name="risk_disclosure">风险披露</string>
+    <string name="speech_risk">语音播报</string>
+    <string name="respeech_risk">重播</string>
+    <string name="risk_disclosure_agreement">
+        1、股票价格可涨可跌，衍生品风险更大。
+        \n\n2、籍存放抵押品而为交易取得融资的亏损风险可能极大。您所蒙受的亏蚀可能会超过您存放于有关卓锐证券作为抵押品的现金及任何其他资产。
+        \n\n3、开通保证金账户后，您将授权给卓锐将您的证券再抵押给银行及金融机构来换取借贷额，这样会有额外的风险。市场情况可能使备用交易指示无法执行。
+        \n\n4、持牌人或注册人在香港以外地方收取或持有的客户资产，是受到有关海关司法管辖区的适用法律及规例所监管的；这些法律及规例与《证券及期货条例》（第571章）及根据该条例制订的规则可能有所不同。因此，有关客户资产将可能不会享有赋予在香港收取或持有的客户资产的相同保障。
+        \n\n5、您可能会在短时间内被要求存入额外的保证金和缴费利息。如您未能在指定时间内支付所需的保证金额和利息，或因市况波动，您的抵押品可能会在未经您同意下或未获通知下被出售。
+        \n\n6、您在收到追缴保证金通知时，包括但不限于以电话、电邮、短信等形式通知，应立即执行并无权将追缴延期。当客户的资产低于保证金的要求时，本人同意并授权卓锐出售账户中存有的证券或使用您在卓锐其他账户中的款项以补回保证金的不足，且您无权选择出售何种证券。
+        \n\n7、您需为您的账户内因此而出现的任何短欠数额及需缴付的利息负责。
+        \n\n8、卓锐证券有权根据市场情况及/或监管机构的要求而调整对客户保证金的要求。
+        \n\n9、当沪港通及深港通的北向每日额度用尽时，会立即暂停相应的买盘交易订单（已获接受的买盘订单不会因每日额度用尽而受到影响，此外仍可以继续接受卖盘订单），当日不会再次接受买盘订单。
+        \n\n10、 沪港通及深港通受中国证监会监管，投资者必须遵守中国的《证券法》及其他适用规定，如果违反该规则和法规，上交所或深交所有权进行调查，此外，香港的某些法律和监管要求将仍然继续适用于北向交易。
+        \n\n11、 在融资买卖方面，内地投资者，香港投资者和海外投资者只可以对若干A股进行融资买卖。上交所和深交所会不定时确定可以进行融资买卖的证券名单。名单将登载在香港交易所网站供大家查阅。
+        \n\n12、 您需根据本身的财政状况及投资目标，确认这种融资安排是适合您，没有其他需要咨询的问题了，在融资买卖方面，内地投资者，香港投资者只可以对若干A股进行融资买卖。
+    </string>
+    <string name="customer_servicer">持牌代表：小雅</string>
+    <string name="customer_servicer_id">牌照号：BVN888</string>
+    <string name="read_risk_complete">我已阅读全部开户文件，了解相关风险并自愿在卓锐证券开户</string>
+    <string name="btn_resignature">重签</string>
+    <string name="btn_confirm">确认</string>
+    <string name="str_wait_audit">请等待审核</string>
+    <string name="str_wait_audit_tips" tools:ignore="TypographyDashes">我们已成功收到您的开户申请，预计1-2个工作日会通知 您开户结果，届时请留意短信和邮件提醒。
+    </string>
+    <string name="btn_return_to_main" tools:ignore="TypographyDashes">返回首页</string>
+    <string name="str_verification_of_ocument_information">核对证件信息</string>
+    <string name="str_personal_information">个人信息</string>
+    <string name="str_employment_status">就业状态</string>
+    <string name="str_email_address">邮箱地址</string>
+    <string name="str_tax_information">税务信息</string>
+    <string name="str_tax_paying_countries_regions">纳税国家/地区</string>
+    <string name="str_tax_number">税务编号</string>
+    <string name="str_risk_assessment_tips">根据合规要求，请填写以下信息</string>
+    <string name="str_property_status">财产状况</string>
+    <string name="str_annual_income">全年收入</string>
+    <string name="str_frequency_of_monthly_transactions">每月交易频次</string>
+    <string name="str_risk_following_ability">风险随能力</string>
+    <string name="str_investment_experience">投资经验</string>
+    <string name="str_shares">股票</string>
+    <string name="str_bond">债券</string>
+    <string name="str_foreign_exchange_or_gold">外汇/黄金</string>
+    <string name="str_fund_or_financing">基金/理财</string>
+    <string name="str_salary">薪金</string>
+    <string name="str_deposit">存款</string>
+    <string name="str_rent">租金</string>
+    <string name="str_investment">投资</string>
+    <string name="to_loan">借贷</string>
+    <string name="str_other">其他</string>
+    <string name="str_other_information_notes">其他信息说明</string>
+</resources>

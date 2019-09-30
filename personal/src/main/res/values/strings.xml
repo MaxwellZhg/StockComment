@@ -1,0 +1,54 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" tools:ignore="MissingTranslation">applib4</string>
+    <string name="login_and_register" tools:ignore="MissingTranslation">登录/注册</string>
+    <string name="area" tools:ignore="MissingTranslation">国家/地区</string>
+    <string name="china_mother_land" tools:ignore="MissingTranslation">中国内地</string>
+    <string name="china_area_phone" tools:ignore="MissingTranslation">+86</string>
+    <string name="input_phone_num" tools:ignore="MissingTranslation">请输入手机号</string>
+    <string name="verification_code" tools:ignore="MissingTranslation">验证码</string>
+    <string name="input_verification_code" tools:ignore="MissingTranslation">请输入验证码</string>
+    <string name="send_verification_code" tools:ignore="MissingTranslation">发送验证码</string>
+    <string name="login" tools:ignore="MissingTranslation">登录</string>
+    <string name="phone_num_login" tools:ignore="MissingTranslation">手机号密码登录</string>
+    <string name="phone_tips" tools:ignore="MissingTranslation">请输入手机号</string>
+    <string name="phone_code_tips" tools:ignore="MissingTranslation">请输入验证码</string>
+    <string name="credit_time" tools:ignore="MissingTranslation">%d s</string>
+    <string name="minutiues" tools:ignore="MissingTranslation">60s</string>
+    <string name="setting_psw" tools:ignore="MissingTranslation">设置登录密码</string>
+    <string name="login_psw" tools:ignore="MissingTranslation">登录密码</string>
+    <string name="ensure_psw" tools:ignore="MissingTranslation">确认密码</string>
+    <string name="complete" tools:ignore="MissingTranslation">完成</string>
+    <string name="psw_conbine" tools:ignore="MissingTranslation">6-20位组合密码</string>
+    <string name="ensure_psw_again" tools:ignore="MissingTranslation">请再次确认</string>
+    <string name="login_tips1" tools:ignore="MissingTranslation">登录即表示阅读并同意 </string>
+    <string name="login_tips2" tools:ignore="MissingTranslation">服务协议</string>
+    <string name="login_tips3" tools:ignore="MissingTranslation">和</string>
+    <string name="login_tips4" tools:ignore="MissingTranslation">隐私政策</string>
+    <string name="country_disct" tools:ignore="MissingTranslation">国家/地区</string>
+    <string name="cancle" tools:ignore="MissingTranslation">取消</string>
+    <string name="country_disct_tips" tools:ignore="MissingTranslation">请输入国家/国际地区名</string>
+    <string name="input_psw_tips" tools:ignore="MissingTranslation">请输入密码</string>
+    <string name="compare_psw_again" tools:ignore="MissingTranslation">两次输入密码不一致，请再次输入</string>
+    <string name="input_mix_count" tools:ignore="MissingTranslation">最小输入6位字符</string>
+    <string name="register_tips" tools:ignore="ExtraTranslation,MissingTranslation">注册成功,是否立即开户?</string>
+    <string name="go_to_main" tools:ignore="MissingTranslation">进入首页</string>
+    <string name="complete_info" tools:ignore="MissingTranslation">立即开户</string>
+    <string name="password" tools:ignore="MissingTranslation">密码</string>
+    <string name="login_register_tips" tools:ignore="MissingTranslation">验证码登录注册</string>
+    <string name="forget_psw" tools:ignore="MissingTranslation">忘记密码</string>
+    <string name="attention" tools:ignore="MissingTranslation">通知</string>
+    <string name="error_input_times" tools:ignore="MissingTranslation">密码输入有误，您还有%d次机会</string>
+    <string name="error_psw_input_times" tools:ignore="MissingTranslation">密码错误超10次，请明天再试</string>
+    <string name="ensure" tools:ignore="MissingTranslation">确定</string>
+    <string name="vrf_code_time" tools:ignore="MissingTranslation">验证码已超过10次\n 请明天再试 </string>
+    <string name="commit" tools:ignore="MissingTranslation">提交</string>
+    <string name="phone_code_vrf_login" tools:ignore="MissingTranslation">短信验证码登录</string>
+    <string name="rest_psw" tools:ignore="MissingTranslation">重置密码</string>
+    <string name="new_psw" tools:ignore="MissingTranslation">新密码</string>
+    <string name="ensure_rest" tools:ignore="MissingTranslation">确认重置</string>
+    <string name="input_new_pws" tools:ignore="MissingTranslation">请输入新密码</string>
+    <string name="input_new_pws_mix" tools:ignore="MissingTranslation">*请输入至少6位密码</string>
+    <string name="compare_no_match" tools:ignore="MissingTranslation">*两次密码输入不一致</string>
+    <string name="new_psw_no_match" tools:ignore="MissingTranslation">*大、小写字母,数字或标点至少含有2种</string>
+    <string name="loading" tools:ignore="MissingTranslation">正在加载</string>
+</resources>

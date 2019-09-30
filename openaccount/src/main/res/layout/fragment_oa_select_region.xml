@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+                name="viewModel"
+                type="com.zhuorui.securities.openaccount.ui.viewmodel.OASelectRegonViewModel"/>
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:background="@color/app_background_color"
+            android:layout_height="match_parent">
+
+        <com.zhuorui.commonwidget.ZhuoRuiTopBar
+                android:id="@+id/top_bar"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:zr_topbarTitle="@string/zhuorui_openaccount"/>
+
+        <TextView
+                android:id="@+id/sub_title"
+                android:text="@string/str_resident_identity_choice"
+                app:layout_constraintTop_toBottomOf="@+id/top_bar"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginTop="39dp"
+                android:layout_marginLeft="28dp"
+                android:textSize="25sp"
+                android:textColor="#232323"
+                android:textStyle="bold"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+        <TextView
+                android:id="@+id/region"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/sub_title"
+                android:layout_marginTop="35dp"
+                android:textColor="#282828"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="19sp"
+                android:background="@android:color/white"
+                android:layout_width="0dp"
+                android:layout_height="50dp"/>
+
+        <View android:layout_width="0dp" android:layout_height="0.5dp"
+              app:layout_constraintLeft_toLeftOf="@+id/region"
+              app:layout_constraintRight_toRightOf="@+id/region"
+              app:layout_constraintTop_toTopOf="@+id/region"
+              android:background="@color/line_color"
+        />
+
+        <View android:layout_width="0dp" android:layout_height="0.5dp"
+              app:layout_constraintLeft_toLeftOf="@+id/region"
+              app:layout_constraintRight_toRightOf="@+id/region"
+              app:layout_constraintBottom_toBottomOf="@+id/region"
+              android:background="@color/line_color"
+        />
+
+        <ImageView
+                app:layout_constraintRight_toRightOf="@+id/region"
+                app:layout_constraintTop_toTopOf="@+id/region"
+                app:layout_constraintBottom_toBottomOf="@+id/region"
+                android:layout_marginRight="14dp"
+                android:layout_width="11dp"
+                android:src="@mipmap/ic_arrow_right_gray"
+                android:layout_height="17dp"/>
+
+        <com.zhuorui.commonwidget.StateButton
+                style="@style/btnStyle"
+                android:id="@+id/next"
+                android:layout_width="0dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/region"
+                android:layout_marginTop="85dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:text="@string/str_next_step"
+        />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

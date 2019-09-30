@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\workspace\\zhuorui_stock_android\\applib3\\build\\intermediates\\res\\merged\\debug\\interpolator\\mtrl_linear_out_slow_in.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\cbc131c47cb141e0c2eb7053d396fc19\\res\\interpolator\\mtrl_linear_out_slow_in.xml"
+    },
+    {
+        "merged": "E:\\workspace\\zhuorui_stock_android\\applib3\\build\\intermediates\\res\\merged\\debug\\interpolator\\mtrl_fast_out_slow_in.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\cbc131c47cb141e0c2eb7053d396fc19\\res\\interpolator\\mtrl_fast_out_slow_in.xml"
+    },
+    {
+        "merged": "E:\\workspace\\zhuorui_stock_android\\applib3\\build\\intermediates\\res\\merged\\debug\\interpolator\\mtrl_linear.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\cbc131c47cb141e0c2eb7053d396fc19\\res\\interpolator\\mtrl_linear.xml"
+    },
+    {
+        "merged": "E:\\workspace\\zhuorui_stock_android\\applib3\\build\\intermediates\\res\\merged\\debug\\interpolator\\mtrl_fast_out_linear_in.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\cbc131c47cb141e0c2eb7053d396fc19\\res\\interpolator\\mtrl_fast_out_linear_in.xml"
+    }
+]

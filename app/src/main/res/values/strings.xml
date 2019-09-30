@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">卓锐证券</string>
+    <string name="checked" tools:ignore="MissingTranslation">自选</string>
+    <string name="market_info" tools:ignore="MissingTranslation">行情</string>
+    <string name="infomation" tools:ignore="MissingTranslation">资讯</string>
+    <string name="open_account" tools:ignore="MissingTranslation">开户</string>
+    <string name="my_self" tools:ignore="MissingTranslation">我的</string>
+</resources>

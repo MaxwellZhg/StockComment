@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data>
+        <variable name="viewmodel"
+                  type="com.zhuorui.securities.personal.ui.viewmodel.ForgetPswViewModel"/>
+    </data>
+<LinearLayout android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/tablayout_bg">
+       <RelativeLayout android:layout_width="match_parent"
+                       android:layout_height="50dp">
+            <ImageView android:layout_width="13dp"
+                       android:layout_height="20dp"
+                       android:id="@+id/iv_back"
+                       android:layout_marginLeft="13dp"
+                       android:layout_centerVertical="true"
+                       android:background="@mipmap/back_arrows"/>
+           <TextView android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:textSize="20sp"
+                     android:textStyle="bold"
+                     android:layout_centerInParent="true"
+                     android:textColor="@color/color_FFFFFFFF"
+                     android:text="@string/forget_psw"/>
+       </RelativeLayout>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:background="@color/color_f0f0f0"
+                  android:orientation="vertical">
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical"
+                  android:layout_marginTop="40dp"
+                  android:layout_marginRight="30dp"
+                  android:layout_marginLeft="30dp">
+        <RelativeLayout android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/rl_country_disct">
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textSize="16sp"
+                      android:id="@+id/tv_area_tips"
+                      android:textStyle="bold"
+                      android:layout_alignParentLeft="true"
+                      android:textColor="@color/color_232323"
+                      android:text="@string/area"/>
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:background="@null"
+                      android:layout_marginLeft="25dp"
+                      android:textSize="16sp"
+                      android:id="@+id/tv_contry"
+                      android:textStyle="bold"
+                      android:textColor="@color/color_282828"
+                      android:text="@string/china_mother_land"
+                      android:layout_toLeftOf="@+id/iv_more_arrows"
+                      android:layout_toRightOf="@+id/tv_area_tips"/>
+            <ImageView android:layout_width="10dp"
+                       android:layout_height="15dp"
+                       android:layout_alignParentRight="true"
+                       android:layout_centerVertical="true"
+                       android:id="@+id/iv_more_arrows"
+                       android:background="@mipmap/more_arrows"/>
+        </RelativeLayout>
+        <ImageView android:layout_width="match_parent"
+                   android:layout_height="1dp"
+                   android:layout_marginTop="15dp"
+                   android:background="@color/color_A1A1A1"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical"
+                  android:layout_marginTop="15dp"
+                  android:layout_marginRight="30dp"
+                  android:layout_marginLeft="30dp">
+        <RelativeLayout android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textSize="16sp"
+                      android:id="@+id/tv_areaphone_tips"
+                      android:textStyle="bold"
+                      android:layout_alignParentLeft="true"
+                      android:textColor="@color/color_232323"
+                      android:text="@string/china_area_phone"/>
+            <EditText android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:id="@+id/et_phone"
+                      android:background="@null"
+                      android:layout_marginLeft="68dp"
+                      android:textCursorDrawable="@drawable/bg_edittext"
+                      android:hint="@string/input_phone_num"
+                      android:inputType="number"
+                      android:textColorHint="@color/color_A1A1A1"
+                      android:textStyle="bold"
+                      android:textSize="16sp"
+                      android:textColor="@color/color_282828"
+                      android:layout_toRightOf="@+id/tv_areaphone_tips"/>
+        </RelativeLayout>
+        <ImageView android:layout_width="match_parent"
+                   android:layout_height="1dp"
+                   android:layout_marginTop="15dp"
+                   android:background="@color/color_A1A1A1"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical"
+                  android:layout_marginTop="15dp"
+                  android:layout_marginRight="30dp"
+                  android:layout_marginLeft="30dp">
+        <RelativeLayout android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textSize="16sp"
+                      android:id="@+id/tv_verificationCode"
+                      android:textStyle="bold"
+                      android:layout_alignParentLeft="true"
+                      android:textColor="@color/color_232323"
+                      android:text="@string/verification_code"/>
+            <EditText android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:background="@null"
+                      android:layout_marginLeft="49dp"
+                      android:textCursorDrawable="@drawable/bg_edittext"
+                      android:id="@+id/et_phone_code"
+                      android:hint="@string/input_verification_code"
+                      android:textStyle="bold"
+                      android:inputType="number"
+                      android:textSize="16sp"
+                      android:textColorHint="@color/color_A1A1A1"
+                      android:textColor="@color/color_282828"
+                      android:layout_toRightOf="@+id/tv_verificationCode"/>
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textSize="13sp"
+                      android:id="@+id/tv_send_code"
+                      android:layout_alignParentRight="true"
+                      android:layout_centerVertical="true"
+                      android:textStyle="bold"
+                      android:text="@{viewmodel.str}"
+                      android:textColor="@color/color_8DB9E4"/>
+        </RelativeLayout>
+        <ImageView android:layout_width="match_parent"
+                   android:layout_height="1dp"
+                   android:layout_marginTop="15dp"
+                   android:background="@color/color_A1A1A1"/>
+    </LinearLayout>
+        <com.zhuorui.commonwidget.StateButton
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="29dp"
+                android:layout_marginRight="29dp"
+                android:layout_marginTop="65dp"
+                android:id="@+id/tv_btn_commit"
+                android:layout_below="@+id/rl_login_tips"
+                android:textSize="23sp"
+                android:padding="0dp"
+                android:minHeight="0dp"
+                android:gravity="center"
+                android:text="@string/commit"
+                android:enabled="false"
+                app:radius="3dp"
+                android:textColor="@color/color_FFFFFFFF"
+                app:normalBackgroundColor="@color/color_1A6ED2"
+                app:unableBackgroundColor="@color/color_8DB9E4"/>
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textSize="13sp"
+              android:id="@+id/tv_phone_code_login"
+              android:textColor="@color/color_1A6ED2"
+              android:layout_marginTop="15dp"
+              android:layout_gravity="center_horizontal"
+              android:text="@string/phone_code_vrf_login"/>
+    </LinearLayout>
+</LinearLayout>
+
+</layout>

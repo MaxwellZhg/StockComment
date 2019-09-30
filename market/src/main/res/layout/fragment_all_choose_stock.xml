@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+        xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <variable name="viewModel"
+                  type="com.zhuorui.securities.market.ui.viewmodel.TopicStockListViewModel"/>
+    </data>
+
+    <LinearLayout android:orientation="vertical"
+                  android:id="@+id/root_view"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent">
+
+        <RelativeLayout android:layout_width="match_parent"
+                        android:background="@color/tab_bar_bg"
+                        android:layout_height="44dp">
+
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_centerVertical="true"
+                      android:textColor="@color/stock_code"
+                      android:layout_marginStart="13dp"
+                      android:text="@string/stock_name_code"/>
+
+            <RelativeLayout android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:id="@+id/rl_now_price"
+                            android:layout_toStartOf="@+id/rl_diff_pirce"
+                            android:layout_marginEnd="13dp"
+                            android:gravity="center_vertical">
+
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:id="@+id/tv_now_price"
+                          android:layout_marginEnd="5dp"
+                          android:layout_centerVertical="true"
+                          android:textColor="@color/stock_code"
+                          android:textSize="15sp"
+                          android:text="@string/newly_price"/>
+
+                <ImageView android:layout_width="11dp"
+                           android:layout_height="13dp"
+                           android:id="@+id/iv_now_price"
+                           android:layout_centerVertical="true"
+                           android:layout_toEndOf="@id/tv_now_price"
+                           android:textSize="15sp"
+                           android:background="@mipmap/ic_sort"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:id="@+id/rl_diff_pirce"
+                            android:layout_toStartOf="@+id/rl_diff_rate"
+                            android:layout_marginEnd="28dp"
+                            android:gravity="center_vertical">
+
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:id="@+id/tv_diff_pirce"
+                          android:layout_marginEnd="5dp"
+                          android:layout_centerVertical="true"
+                          android:textColor="@color/stock_code"
+                          android:textSize="15sp"
+                          android:text="@string/diff_price"/>
+
+                <ImageView android:layout_width="11dp"
+                           android:layout_height="13dp"
+                           android:id="@+id/iv_diff_pirce"
+                           android:layout_centerVertical="true"
+                           android:layout_toEndOf="@id/tv_diff_pirce"
+                           android:textSize="15sp"
+                           android:background="@mipmap/ic_sort"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:id="@+id/rl_diff_rate"
+                            android:layout_marginEnd="13dp"
+                            android:gravity="center_vertical"
+                            android:layout_alignParentEnd="true">
+
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:id="@+id/tv_diff_rate"
+                          android:layout_marginEnd="5dp"
+                          android:layout_centerVertical="true"
+                          android:textColor="@color/stock_code"
+                          android:textSize="15sp"
+                          android:text="@string/updown"/>
+
+                <ImageView android:layout_width="11dp"
+                           android:layout_height="13dp"
+                           android:id="@+id/iv_arrows"
+                           android:layout_centerVertical="true"
+                           android:layout_toEndOf="@id/tv_diff_rate"
+                           android:textSize="15sp"
+                           android:background="@mipmap/ic_sort"/>
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <View android:layout_width="match_parent"
+              android:layout_height="1dp"
+              android:background="@color/cent_color"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_stock"
+                android:layout_weight="20"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        <ViewStub
+                android:id="@+id/guide_open_accout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inflatedId="@+id/viewInfalatedRootId"
+                android:layout="@layout/layout_guide_open_accout"/>
+    </LinearLayout>
+</layout>

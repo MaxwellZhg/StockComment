@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\workspace\\zhuorui_stock_android\\applib2\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\c6cca1db9f85fdc981bc2b8842959dfe\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "E:\\workspace\\zhuorui_stock_android\\applib2\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\c6cca1db9f85fdc981bc2b8842959dfe\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "E:\\workspace\\zhuorui_stock_android\\applib2\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\c6cca1db9f85fdc981bc2b8842959dfe\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "E:\\workspace\\zhuorui_stock_android\\applib2\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\c6cca1db9f85fdc981bc2b8842959dfe\\res\\layout-v21\\notification_template_icon_group.xml"
+    }
+]

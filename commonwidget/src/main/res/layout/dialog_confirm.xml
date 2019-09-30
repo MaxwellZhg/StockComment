@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:background="@drawable/dialog_bg"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <TextView
+            android:id="@+id/tv_msg"
+            android:layout_width="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="--"
+            android:textStyle="bold"
+            android:textColor="@color/color_282828"
+            android:textSize="14sp"
+            android:drawablePadding="8dp"
+            android:layout_marginTop="19dp"
+            android:layout_marginBottom="19dp"
+            android:layout_marginStart="21dp"
+            android:layout_marginEnd="21dp"/>
+
+    <View android:layout_width="match_parent" android:layout_height="0.5dp"
+          android:background="@color/color_FFA1A1A1"/>
+
+    <TextView
+            android:id="@+id/tv_confirm"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:gravity="center"
+            android:text="---"
+            android:textStyle="bold"
+            android:textColor="@color/COLOR_FF1A6ED2"
+            android:textSize="18sp"/>
+</LinearLayout>

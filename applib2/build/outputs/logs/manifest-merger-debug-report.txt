@@ -1,0 +1,37 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\workspace\zhuorui_stock_android\applib2\src\main\AndroidManifest.xml:1:1-2:53
+INJECTED from E:\workspace\zhuorui_stock_android\applib2\src\main\AndroidManifest.xml:1:1-2:53
+INJECTED from E:\workspace\zhuorui_stock_android\applib2\src\main\AndroidManifest.xml:1:1-2:53
+INJECTED from E:\workspace\zhuorui_stock_android\applib2\src\main\AndroidManifest.xml:1:1-2:53
+INJECTED from E:\workspace\zhuorui_stock_android\applib2\src\main\AndroidManifest.xml:1:1-2:53
+INJECTED from E:\workspace\zhuorui_stock_android\applib2\src\main\AndroidManifest.xml:1:1-2:53
+INJECTED from E:\workspace\zhuorui_stock_android\applib2\src\main\AndroidManifest.xml:1:1-2:53
+	package
+		ADDED from E:\workspace\zhuorui_stock_android\applib2\src\main\AndroidManifest.xml:2:11-51
+		INJECTED from E:\workspace\zhuorui_stock_android\applib2\src\main\AndroidManifest.xml
+		INJECTED from E:\workspace\zhuorui_stock_android\applib2\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\workspace\zhuorui_stock_android\applib2\src\main\AndroidManifest.xml
+		ADDED from E:\workspace\zhuorui_stock_android\applib2\src\main\AndroidManifest.xml:1:1-2:53
+		INJECTED from E:\workspace\zhuorui_stock_android\applib2\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from E:\workspace\zhuorui_stock_android\applib2\src\main\AndroidManifest.xml
+		ADDED from E:\workspace\zhuorui_stock_android\applib2\src\main\AndroidManifest.xml:1:1-2:53
+		INJECTED from E:\workspace\zhuorui_stock_android\applib2\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\workspace\zhuorui_stock_android\applib2\src\main\AndroidManifest.xml:1:11-69
+uses-sdk
+INJECTED from E:\workspace\zhuorui_stock_android\applib2\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\workspace\zhuorui_stock_android\applib2\src\main\AndroidManifest.xml
+INJECTED from E:\workspace\zhuorui_stock_android\applib2\src\main\AndroidManifest.xml
+INJECTED from E:\workspace\zhuorui_stock_android\applib2\src\main\AndroidManifest.xml
+INJECTED from E:\workspace\zhuorui_stock_android\applib2\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from E:\workspace\zhuorui_stock_android\applib2\src\main\AndroidManifest.xml
+		ADDED from E:\workspace\zhuorui_stock_android\applib2\src\main\AndroidManifest.xml
+		INJECTED from E:\workspace\zhuorui_stock_android\applib2\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\workspace\zhuorui_stock_android\applib2\src\main\AndroidManifest.xml
+		ADDED from E:\workspace\zhuorui_stock_android\applib2\src\main\AndroidManifest.xml
+		INJECTED from E:\workspace\zhuorui_stock_android\applib2\src\main\AndroidManifest.xml

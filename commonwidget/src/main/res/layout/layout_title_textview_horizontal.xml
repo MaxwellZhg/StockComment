@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   android:orientation="vertical"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="wrap_content">
+
+    <TextView
+            android:id="@+id/tv_title"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:textColor="#232323"
+            android:textSize="16sp"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+    <TextView
+            android:id="@+id/et_edittext"
+            android:layout_marginLeft="16dp"
+            app:layout_constraintRight_toLeftOf="@+id/iv_right_icon"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toRightOf="@+id/tv_title"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:textSize="15sp"
+            android:textColor="#282828"
+            android:textColorHint="#A1A1A1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iv_right_icon"
+            android:layout_width="15dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="15dp"
+            android:src="@color/color_FF000000_65"
+            app:layout_constraintLeft_toRightOf="@+id/et_edittext"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/et_edittext"
+            app:layout_constraintBottom_toBottomOf="@+id/et_edittext"
+            android:visibility="gone"/>
+
+    <View
+            android:layout_width="0dp"
+            android:layout_height="0.5dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:background="#CCCCCC"
+
+    />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

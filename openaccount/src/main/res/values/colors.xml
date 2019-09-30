@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="app_bule" tools:ignore="MissingDefaultResource">#1A6ED2</color>
+    <color name="app_background_color" tools:ignore="MissingDefaultResource">#f0f0f0</color>
+    <color name="line_color" tools:ignore="MissingDefaultResource">#A1A1A1</color>
+    <color name="text_color" tools:ignore="MissingDefaultResource">#282828</color>
+    <color name="title_color" tools:ignore="MissingDefaultResource">#232323</color>
+    <color name="hint_color" tools:ignore="MissingDefaultResource">#A1A1A1</color>
+    <color name="color_b3b3b3" tools:ignore="MissingDefaultResource">#B3B3B3</color>
+    <color name="color_454553" tools:ignore="MissingDefaultResource">#454553</color>
+    <color name="seekbar_background">#B3B3B3</color>
+    <color name="seekbar_progress">#1A6ED2</color>
+    <color name="color_8DB9E4" tools:ignore="MissingDefaultResource">#8DB9E4</color>
+    <color name="color_1a1a22" tools:ignore="MissingDefaultResource">#1A1A22</color>
+    <color name="color_2F2F2F" tools:ignore="MissingDefaultResource">#2F2F2F</color>
+    <color name="color_333333" tools:ignore="MissingDefaultResource">#333333</color>
+</resources>

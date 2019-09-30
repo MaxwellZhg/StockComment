@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+         xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data>
+        <variable name="viewmodel"
+                  type="com.zhuorui.securities.personal.ui.viewmodel.CountryDisctViewModel"/>
+    </data>
+    <LinearLayout
+                  android:orientation="vertical"
+                  android:background="@color/tablayout_bg"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent">
+        <RelativeLayout android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="@color/tablayout_bg">
+            <ImageView android:layout_width="13dp"
+                       android:layout_height="20dp"
+                       android:id="@+id/iv_back"
+                       android:layout_marginLeft="13dp"
+                       android:layout_centerVertical="true"
+                       android:background="@mipmap/back"/>
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_centerInParent="true"
+                      android:textSize="20sp"
+                      android:textStyle="bold"
+                      android:textColor="@color/color_FFFFFFFF"
+                      android:text="@string/country_disct"/>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="@color/color_FFFFFFFF">
+            <RelativeLayout android:layout_width="match_parent"
+                            android:id="@+id/rl_search"
+                            android:layout_toLeftOf="@+id/tv_cancle"
+                            android:layout_marginRight="16dp"
+                            android:background="@drawable/search_bg"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="15dp"
+                            android:layout_height="31dp">
+                <ImageView android:layout_width="12dp"
+                           android:layout_height="12dp"
+                           android:id="@+id/iv_search"
+                           android:layout_marginLeft="12dp"
+                           android:layout_centerVertical="true"
+                           android:background="@mipmap/search"/>
+                <EditText android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:lines="1"
+                          android:background="@null"
+                          android:textColor="@color/color_232323"
+                          android:textStyle="bold"
+                          android:id="@+id/et_search"
+                          android:textColorHint="@color/color_616161"
+                          android:textSize="13sp"
+                          android:layout_toRightOf="@+id/iv_search"
+                          android:layout_marginLeft="6dp"
+                          android:layout_centerVertical="true"
+                          android:hint="@string/country_disct_tips"/>
+            </RelativeLayout>
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:id="@+id/tv_cancle"
+                      android:layout_marginRight="16dp"
+                      android:layout_centerVertical="true"
+                      android:textStyle="bold"
+                      android:textColor="@color/color_232323"
+                      android:textSize="16sp"
+                      android:layout_alignParentRight="true"
+                      android:text="@string/cancle"/>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/color_FFFFFFFF">
+            <ListView android:id="@+id/lv_country"
+                      android:layout_width="match_parent"
+                      android:overScrollMode="never"
+                      android:layout_marginRight="25dp"
+                      android:layout_height="match_parent">
+            </ListView>
+            <com.zhuorui.commonwidget.QuickIndexBar
+                    android:id="@+id/quickindexbar"
+                    android:layout_width="25dp"
+                    android:layout_marginTop="150dp"
+                    android:layout_marginBottom="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    app:text_normal_color="@color/color_1A6ED2"
+                    app:text_press_color="#000000"
+                    app:text_size="12sp" />
+        </RelativeLayout>
+    </LinearLayout>
+</layout>
