@@ -22,9 +22,6 @@ class TabOneFragment :AbsSwipeBackNetFragment<com.zhuorui.securities.market.data
         get() = ViewModelProviders.of(this).get(TestTabOneViewModel::class.java)
     override val getView: TestTabOneView
         get() = this
-    override fun rootViewFitsSystemWindowsPadding(): Boolean {
-        return true
-    }
 
     companion object {
         fun newInstance(type: TestEnum?): TabOneFragment {

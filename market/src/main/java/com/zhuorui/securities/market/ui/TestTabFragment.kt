@@ -64,8 +64,8 @@ class TestTabFragment :AbsSwipeBackNetFragment<com.zhuorui.securities.market.dat
         mfragment.add(TestInfo(ResUtil.getString(R.string.hk_stock)!!, TestEnum.TWO))
         mfragment.add(TestInfo(ResUtil.getString(R.string.sh_stock)!!, TestEnum.THREE))
         fragment.add(TabOneFragment.newInstance(TestEnum.ONE))
-        fragment.add(TabTwoFragment.newInstance(TestEnum.TWO))
-        fragment.add(TabThreeFragment.newInstance(TestEnum.THREE))
+        fragment.add(TabOneFragment.newInstance(TestEnum.TWO))
+        fragment.add(TabOneFragment.newInstance(TestEnum.THREE))
         // 设置viewpager指示器
         val commonNavigator = CommonNavigator(requireContext())
         commonNavigator.adapter = object : CommonNavigatorAdapter() {
@@ -103,9 +103,6 @@ class TestTabFragment :AbsSwipeBackNetFragment<com.zhuorui.securities.market.dat
         viewpager.addOnPageChangeListener(object : ViewPager.OnPageChangeListener {
             override fun onPageScrollStateChanged(state: Int) {
                 magic_indicator.onPageScrollStateChanged(state)
-                if(state==0){
-                    RxBus.getDefault().post(TestEvent(et_serach.text.toString(),mfragment[viewpager.currentItem].type))
-                }
             }
 
             override fun onPageScrolled(position: Int, positionOffset: Float, positionOffsetPixels: Int) {
@@ -114,7 +111,7 @@ class TestTabFragment :AbsSwipeBackNetFragment<com.zhuorui.securities.market.dat
 
             override fun onPageSelected(position: Int) {
                 magic_indicator.onPageSelected(position)
-                RxBus.getDefault().post(TestEvent(et_serach.text.toString(),mfragment[viewpager.currentItem].type))
+                RxBus.getDefault().post(TestEvent(et_serach.text.toString()+"CLICK",mfragment[viewpager.currentItem].type))
             }
         })
 
@@ -124,8 +121,8 @@ class TestTabFragment :AbsSwipeBackNetFragment<com.zhuorui.securities.market.dat
     }
     inner class ViewPagerAdapter(fm: FragmentManager) : FragmentPagerAdapter(fm) {
 
-        override fun getItem(position: Int): Fragment {
-            return fragment[position]
+        override fun getItem(position: Int): TabOneFragment {
+            return TabOneFragment.newInstance(mfragment[position].type)
         }
 
         override fun getCount(): Int {
@@ -138,7 +135,12 @@ class TestTabFragment :AbsSwipeBackNetFragment<com.zhuorui.securities.market.dat
     }
     override fun afterTextChanged(p0: Editable?) {
         if (p0.toString().isNotEmpty()) {
+              magic_indicator.visibility=View.VISIBLE
+              viewpager.visibility=View.VISIBLE
              RxBus.getDefault().post(TestEvent(p0.toString(),mfragment[viewpager.currentItem].type))
+        }else{
+            magic_indicator.visibility=View.INVISIBLE
+            viewpager.visibility=View.INVISIBLE
         }
     }
 

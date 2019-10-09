@@ -24,7 +24,17 @@ class TestTabOnePresenter : AbsNetPresenter<TestTabOneView,TestTabOneViewModel>(
     @RxSubscribe(observeOnThread = EventThread.MAIN)
     fun onNotifyStockCountEvent(event: TestEvent) {
         if(event.enum==ts){
-            LogInfra.Log.e("tttttttt-1++++++",event.str)
+            when(ts) {
+                TestEnum.ONE -> {
+                    LogInfra.Log.e("tttttttt-1++++++",event.str)
+                }
+                TestEnum.TWO-> {
+                    LogInfra.Log.e("tttttttt-2++++++",event.str)
+                }
+                TestEnum.THREE-> {
+                    LogInfra.Log.e("tttttttt-3++++++",event.str)
+                }
+            }
         }
     }
 }

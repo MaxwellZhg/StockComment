@@ -5,6 +5,7 @@
                   type="com.zhuorui.securities.market.ui.viewmodel.TestTabOneViewModel"/>
     </data>
     <LinearLayout android:orientation="vertical"
+                  android:background="@color/color_FF0000"
                   android:layout_width="match_parent"
                   android:layout_height="match_parent">
        <TextView android:layout_width="wrap_content"

@@ -7,12 +7,14 @@ import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentPagerAdapter
 import androidx.lifecycle.ViewModelProviders
 import androidx.viewpager.widget.ViewPager
+import com.zhuorui.securities.base2app.rxbus.RxBus
 import com.zhuorui.securities.base2app.ui.fragment.AbsBackFinishFragment
 import com.zhuorui.securities.base2app.ui.fragment.AbsFragment
 import com.zhuorui.securities.base2app.util.ResUtil
 import com.zhuorui.securities.market.BR
 import com.zhuorui.securities.market.R
 import com.zhuorui.securities.market.databinding.FragmentStockTabBinding
+import com.zhuorui.securities.market.event.TabEvent
 import com.zhuorui.securities.market.ui.presenter.StockTabPresenter
 import com.zhuorui.securities.market.ui.view.StockTabView
 import com.zhuorui.securities.market.ui.viewmodel.StockTabViewModel
@@ -118,6 +120,7 @@ class StockTabFragment :
 
             override fun onPageSelected(position: Int) {
                 magic_indicator.onPageSelected(position)
+              RxBus.getDefault().post(TabEvent(mfragment!![viewpager.currentItem].type))
                 if (toggleStockTabShowing) {
                     presenter?.toggleStockTab()
                 }

@@ -1,8 +1,10 @@
 package com.zhuorui.securities.market.ui.presenter
 
+import android.util.Log
 import androidx.lifecycle.LifecycleOwner
 import com.zhuorui.commonwidget.ScreenCentralStateToast
 import com.zhuorui.securities.base2app.Cache
+import com.zhuorui.securities.base2app.infra.LogInfra
 import com.zhuorui.securities.base2app.network.BaseResponse
 import com.zhuorui.securities.base2app.network.Network
 import com.zhuorui.securities.base2app.rxbus.EventThread
@@ -14,14 +16,8 @@ import com.zhuorui.securities.personal.config.LocalAccountConfig
 import com.zhuorui.securities.personal.event.LoginStateChangeEvent
 import com.zhuorui.securities.market.R
 import com.zhuorui.securities.market.config.LocalStocksConfig
-import com.zhuorui.securities.market.event.AddTopicStockEvent
-import com.zhuorui.securities.market.event.DeleteTopicStockEvent
-import com.zhuorui.securities.market.event.NotifyStockCountEvent
-import com.zhuorui.securities.market.event.SynStockEvent
-import com.zhuorui.securities.market.model.StockMarketInfo
-import com.zhuorui.securities.market.model.StockTopic
-import com.zhuorui.securities.market.model.StockTopicDataTypeEnum
-import com.zhuorui.securities.market.model.StockTsEnum
+import com.zhuorui.securities.market.event.*
+import com.zhuorui.securities.market.model.*
 import com.zhuorui.securities.market.net.IStockNet
 import com.zhuorui.securities.market.net.request.DeleteStockRequest
 import com.zhuorui.securities.market.net.request.RecommendStocklistRequest
@@ -333,5 +329,22 @@ class TopicStockListPresenter : AbsNetPresenter<TopicStockListView, TopicStockLi
             disposable.dispose()
         }
         disposables.clear()
+    }
+
+    @RxSubscribe(observeOnThread = EventThread.MAIN)
+    fun onNotifyStockCountEvent(event: TabEvent) {
+        if(event.event==ts){
+            when(ts) {
+                StockTsEnum.HS -> {
+                 Log.e("tttttttt-1++++++","11111")
+                }
+               StockTsEnum.HK-> {
+                   Log.e("tttttttt-2++++++","222222")
+                }
+                null-> {
+                    Log.e("tttttttt-3++++++","333333")
+                }
+            }
+        }
     }
 }
