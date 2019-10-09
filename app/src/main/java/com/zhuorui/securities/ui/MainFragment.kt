@@ -11,6 +11,7 @@ import com.zhuorui.securities.databinding.FragmentMainBinding
 import com.zhuorui.securities.infomation.ui.InfomationTabFragment
 import com.zhuorui.securities.market.ui.MarketTabFragment
 import com.zhuorui.securities.market.ui.StockTabFragment
+import com.zhuorui.securities.market.ui.TestTabFragment
 import com.zhuorui.securities.openaccount.ui.OABiopsyFragment
 import com.zhuorui.securities.openaccount.ui.OpenAccountTabFragment
 import com.zhuorui.securities.personal.ui.MyTabFragment
